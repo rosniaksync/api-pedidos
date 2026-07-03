@@ -17,6 +17,19 @@ O sistema permite cadastrar clientes, produtos e pedidos, onde cada pedido pode 
 - Lombok
 - SpringDoc OpenAPI (Swagger)
 
+## Testes
+
+A aplicação possui uma suíte de testes unitários utilizando **JUnit 5** e **Mockito**, cobrindo os principais serviços da aplicação.
+
+Os testes verificam:
+
+- Fluxos de sucesso
+- Regras de negócio
+- Tratamento de exceções
+- Validação de dados
+- Alterações de estado dos pedidos
+- Interações entre serviços e repositórios
+
 ## Arquitetura
 
 O projeto segue a organização em camadas (**package by layer**), separando responsabilidades em:
